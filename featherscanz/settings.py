@@ -75,7 +75,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'featherscanz.wsgi.application'
 
-CSRF_TRUSTED_ORIGINS = ['https://featherscanz-production.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['https://featherscanz-production.up.railway.app/', 'https://featherscanz-production.up.railway.app/audscan/', 'https://featherscanz-production.up.railway.app/imgscan/']
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
