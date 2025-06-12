@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-y=k2r#f*6*8j@w(05$$&_oe^@vyu0g+cazqfma19*m3e11u*a6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*', 'featherscanz-production.up.railway.app', '127.0.0.1',]
+ALLOWED_HOSTS = ['*', 'featherscanz-production.up.railway.app', '127.0.0.1']
 
 
 # Application definition
@@ -75,7 +75,9 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'featherscanz.wsgi.application'
 
-CSRF_TRUSTED_ORIGINS = ['https://featherscanz-production.up.railway.app/', 'https://featherscanz-production.up.railway.app/audscan/', 'https://featherscanz-production.up.railway.app/imgscan/']
+CSRF_TRUSTED_ORIGINS = [
+    'https://featherscanz-production.up.railway.app'
+]
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
